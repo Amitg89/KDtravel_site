@@ -1,0 +1,219 @@
+
+body {
+    background-image:url("assets/img/background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.main-background {
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image:url('../img/background.jpg');
+	background-position: center;
+	background-size: cover;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s
+}
+.bodyClass .main-background {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	filter: blur(8px);
+	-webkit-filter: blur(8px)
+}
+
+#logo{
+	margin-bottom:2rem
+}
+.h2,.h5,h2,h5{
+	font-family:Abel;
+	margin-left:1rem;
+}
+
+#car-group{
+	margin-left:1rem;
+	background-color:#ffe0b2;
+	width:90%;
+}
+#pickup-location{
+	margin-left:1rem;
+}
+#pickupDate{
+	margin-left:1rem;
+}
+#pickupTime{
+	margin-left:1rem;
+}
+#return-location{
+	background-color:#ffe0b2;
+	width:70%;
+	margin-left:1rem;
+}
+#returnTime{
+	background-color:#ffe0b2;
+	margin-left:1rem;
+}
+.h2,.h5,h2,h5{
+	margin-left:1rem
+}
+#header{
+	text-align:center
+}
+#logo{
+	width:250px;
+	padding-top:3rem
+}
+.h5,h5{
+	text-align:left;
+	margin-top:1rem;
+	font-weight:bold;
+	color:rgb(213, 233, 255);
+
+	
+}
+.h1,h1{
+	font-family:Abel, sans-serif;
+	color:rgba(255,107,0,0.78);
+	
+	font-weight: bold;
+
+}
+.h2,h2{
+	text-align: left;
+	color:rgb(213, 233, 255);
+}
+#SubmitRow,
+#contactRow,
+#formRow{
+	text-align:center
+}
+#returnDate{
+	margin-left:1rem;
+	background-color:#ffe0b2;
+}
+#formRow
+{width:inherit
+}
+#carGroupTitle{
+	margin-top:2rem
+}
+.col-6.col-sm-4.col-md-6.col-lg-5.col-xl-6{
+	text-align:right
+}
+#insuranceRow{
+	padding-bottom:2rem
+}
+#phoneInput{
+	width:70%;
+	margin-left:1rem;
+}
+#nameInput {
+	width:70%;
+	margin-left:1rem;
+}
+#emailInput {
+	width: 70%;
+	margin-left : 1rem;
+}
+#noteInput {
+	width:70%;
+	height:100px;
+	margin-left:1rem;
+}
+#line::after{
+	background:linear-gradient(to bottom,rgba(247,148,29,0) 0,rgba(255,107,0,.78) 50%,rgba(247,148,29,0) 100%);
+	content:'';
+	display:block;
+	height:100%;
+	width:3px;
+}
+#showRes {
+	background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%); 
+	margin-bottom:2rem;
+	margin-top:2rem;
+	box-shadow: rgb(0, 0, 0) 7px 7px 7px  ;
+	font-family:Abel,sans-serif;
+	color:rgb(213, 233, 255);
+	font-size: 20px;
+	border:1px solid white;
+ }
+#showRes:hover { 
+	background-position: right center;
+	color:black;
+	-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+	transition: color 1s; /* For modern browsers */ 
+}
+#modalSubmit {
+
+	background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%); 
+	color:rgb(213, 233, 255);
+	border:1px solid white;
+
+
+}
+#modalCncl {
+
+	background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%); 
+	color:rgb(213, 233, 255);
+	border:1px solid white;
+
+
+}
+#resShow {
+	text-align: left;
+	
+}
+
+#insurancePicker{
+	margin-left:1rem;
+	margin-bottom:3rem;
+}
+#insuranceTitle {
+	margin-top:-1rem;
+	
+}
+#imgCol {
+	text-align:right;
+}
+#phoneCol {
+	text-align:left;
+}
+
+
+@media (min-width:300px)
+{
+    #checkboxCol{
+		margin-left:1rem;text-align:left
+	}
+}
+@media (min-width:768px)
+{
+    #carGroupTitle{
+		margin-top:2rem
+	}
+
+	
+}
+@media (max-width:768px)
+{
+
+	#insuranceTitle {
+	margin-top:0rem;
+	
+}
+}
+@media (min-width:992px)
+{
+    #carGroupTitle{
+		margin-top:1rem
+	}
+}

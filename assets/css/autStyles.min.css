@@ -1,0 +1,108 @@
+	.main-background {
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-position: center;
+	background-size: cover;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	}
+	.bodyClass .main-background {
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+		filter: blur(8px);
+		-webkit-filter: blur(8px);
+	}
+	#logo{
+		width:initial;
+		padding-top:4rem;
+	}
+	#return {
+		background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%); 
+		margin-bottom:2rem;
+		margin-top:2rem;
+		box-shadow: rgb(0, 0, 0) 7px 7px 7px  ;
+		font-family:Abel,sans-serif;
+		color:rgb(213, 233, 255);
+		font-size: 20px;
+		border:1px solid white;
+	 }
+	#return:hover { 
+		background-position: right center;
+		color:black;
+		-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+		transition: color 1s; /* For modern browsers */ 
+	}
+	#contactRow{
+		height:inherit;
+		padding-top:3rem;
+		padding-bottom:2rem;
+		
+	}
+	#thankYou {
+		font-family:Abel, sans-serif;
+		color:rgb(213, 233, 255);
+		font-weight: bold;
+		-webkit-text-stroke: 0.5px transparent;
+	}
+	.h1,h1{
+		font-family:Abel, sans-serif;
+		color:rgba(255,107,0,0.78);
+		-webkit-text-stroke: 0px;
+		font-weight: bold;
+
+	}
+
+	.h2,h2{
+		color:rgb(213, 233, 255);
+		font-family:Abel, sans-serif;
+	
+		font-weight: bold;
+	}
+	#details{
+		text-align:center;
+	}
+	#logo{
+		margin-bottom:2rem;
+	}
+	#header{
+		text-align:center;
+	
+	}
+	#container{
+		text-align:center;
+	}
+	#imgCol {
+		text-align:right;
+	}
+	#phoneCol {
+		text-align:left;
+	}
+	@media (max-width:320px)
+{
+    #logo{width: 80% !important}
+    
+}
+@media (max-width:420px)
+{
+    #logo{width: 370px}
+    
+	
+
+}
+@media (min-width:1140px)
+{
+    #phoneImg{margin-left:6rem;}
+    
+	
+
+}
+
