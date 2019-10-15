@@ -48,7 +48,7 @@ if ( isset( $_POST['modalSubmit'] ) )
 		
 
 		// Email Variables
-		$toUser  = "glamamit89@gmail.com"; // recipient
+		$toUser  = "myemail@email.com"; // recipient
 		$subject = "New reservation from your site for - ".$fullName; // subject
 		$body    = "
 					<html>
